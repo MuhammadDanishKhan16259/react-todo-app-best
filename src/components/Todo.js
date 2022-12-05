@@ -90,7 +90,7 @@ const Todo = () => {
   };
 
   const additeams = () => {
-    if (todo == "") {
+    if (todo === "") {
       setValidation("Enter Your Todo");
     } else {
       setAdd(() => {
